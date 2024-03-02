@@ -1,0 +1,161 @@
+/* Style the header element */
+
+@media (min-width: 1000px) and (max-width: 3000px) {
+  .options-lyt p {
+    color: white;
+  }
+}
+
+.header-lyt {
+  position: fixed; /* Make the header fixed to the top of the screen */
+  top: 0; /* Position it at the top of the viewport */
+  left: 0; /* Position it at the left of the viewport */
+  width: 100%; /* Stretch it across the entire width of the layout */
+  height: 130px; /* Set its height to 80px */
+  background-color: rgba(1, 38, 39, 0.5);
+  display: flex; /* Enable flexbox for horizontal alignment */
+  justify-content: space-between; /* Align items horizontally with space between them */
+  align-items: center; /* Align items vertically in the center */
+  padding: 10px 20px, 10px, 10px; /* Add some padding for visual spacing */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  z-index: 100;
+}
+.main-icon-lyt {
+  display: flex;
+  align-items: center;
+}
+.main-icon-img {
+  height: 170px;
+  margin: 10px;
+}
+.eureka-txt {
+  font-size: 50px;
+  color: rgb(255, 56, 89);
+  font-weight: bolder;
+}
+/* Style the "options-lyt" element */
+.options-lyt {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(17, 16, 16, 0.05);
+}
+.options-lyt p {
+  font-size: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+  transition: transform 0.6s ease-in-out, color 0.6s ease-in-out;
+  color: rgb(221, 249, 250);
+}
+
+.options-lyt p:hover {
+  transform: scale(1.2);
+  color: rgb(255, 56, 89);
+}
+
+/* Optional styles for individual elements within the header */
+.request-btn {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 56, 89);
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
+  border-radius: 7px;
+  border-color: transparent;
+  transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;
+}
+.request-btn:hover {
+  transform: scale(1.2);
+  background-color: rgba(255, 56, 89, 0.5);
+}
+.main-icon-lyt {
+  display: flex; /* Enable flexbox for vertical alignment (optional) */
+  align-items: center;
+}
+
+.eureka-txt {
+  margin-left: 10px; /* Add some spacing between the icon and text (optional) */
+}
+.main-content-lyt {
+  display: flex; /* Enable flexbox for container */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 100vw; /* Set width to 100% of viewport */
+  height: 100vh; /* Set height to 100% of viewport (adjust if needed) */
+}
+
+.image-coontent-lyt {
+  width: 100%; /* Set image width to 100% of container */
+  height: 100%; /* Set image height to 100% of container */
+  position: relative; /* Enable relative positioning for text element */
+}
+
+.main-content-img {
+  width: 100%; /* Set image width to 100% of container */
+  height: 100%; /* Set image height to 100% of container */
+  object-fit: cover; /* Ensure image covers the entire container */
+}
+
+.text-content-lyt {
+  position: absolute; /* Position text absolutely within image container */
+  top: 50%; /* Position vertically at 50% of image height */
+  left: 50%; /* Position horizontally at 50% of image width */
+  transform: translate(-50%, -50%); /* Center text within its container */
+  text-align: center; /* Center text content horizontally */
+  color: white; /* Optional: Set text color to white (adjust as needed) */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.2
+  ); /* Optional: Add semi-transparent background (adjust as needed) */
+  padding: 60px; /* Add some padding around the text content */
+  border-radius: 30px;
+}
+.premium-courses-txt {
+  font-size: 40px;
+  display: flex;
+  text-decoration: underline;
+  font-weight: lighter;
+  color: rgb(255, 241, 214);
+}
+.course-desc-txt {
+  font-size: 40px;
+  text-align: start;
+}
+.you-tube-link {
+  color: rgb(255, 56, 89);
+  cursor: pointer;
+}
+.spotify-link {
+  color: rgb(255, 56, 89);
+  cursor: pointer;
+}
+.course-startup-date {
+  font-size: 70px;
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.view-course-btn {
+  background-color: transparent;
+  border: 3px solid white;
+  padding: 30px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+  transition: transform 0.6s ease-in-out;
+  cursor: pointer;
+}
+.view-course-btn:hover {
+  transform: scale(1.1);
+}
+.dicover-lyt {
+  width: 80%;
+  margin: 0 auto;
+}
