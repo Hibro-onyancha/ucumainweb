@@ -1,0 +1,98 @@
+p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  width: 100%;
+}
+.notes-welcome {
+  color: rgb(1, 38, 39);
+  font-weight: bold;
+  text-align: center;
+  font-size: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bio-content {
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bio-txt {
+  color: rgb(79, 117, 79);
+  font-size: 50px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+.b-grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  grid-gap: 60px;
+}
+.b-grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  grid-gap: 40px;
+  margin-top: 60px;
+}
+
+.bio-card1,
+.bio-card2,
+.bio-card3 {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 5px 15px 15px rgba(1, 38, 39, 0.5);
+}
+
+.b-img-1 {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 15px 0px 0px 15px;
+  margin-right: 50px;
+}
+.book-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.book-title {
+  font-size: 35px;
+  color: rgb(1, 38, 39);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.book-about {
+  font-size: 35px;
+  color: green;
+  margin-bottom: 15px;
+  font-weight: lighter;
+}
+.pages {
+  font-size: 25px;
+  color: grey;
+  font-weight: lighter;
+  margin-bottom: 60px;
+}
+.view-btn {
+  border: 0px solid transparent;
+  color: white;
+  background-color: rgb(253, 96, 122);
+  width: 100%;
+  height: 90px;
+  border-radius: 40px;
+  font-size: 40px;
+  cursor: pointer;
+  transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;
+}
+.view-btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(1, 38, 39);
+}
