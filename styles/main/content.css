@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 .dicover-txt {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: lighter;
   color: rgb(1, 38, 39);
   margin-bottom: 40px;
@@ -48,13 +48,13 @@
   align-items: center;
   background-color: rgb(132, 209, 132);
   padding: 10px;
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   border-radius: 50px;
   margin-right: 30px;
 }
 .maths-icon-img {
-  height: 100px;
+  height: 60px;
 }
 
 .maths-text-lyt {
@@ -64,13 +64,13 @@
 
 .maths-header-txt {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: green;
 }
 
 .maths-desc-txt {
-  font-size: 30px;
+  font-size: 10px;
   font-weight: lighter;
 }
 
@@ -80,13 +80,13 @@
   align-items: center;
   background-color: pink;
   padding: 10px;
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
   margin-right: 30px;
 }
 .bio-icon-img {
-  height: 100px;
+  height: 60px;
 }
 
 .bio-text-lyt {
@@ -96,28 +96,28 @@
 
 .bio-header-txt {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: rgb(248, 86, 113);
 }
 
 .bio-desc-txt {
-  font-size: 30px;
+  font-size: 10px;
   font-weight: lighter;
 }
 .physics-icon-lyt {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: pink;
+  background-color: rgb(192, 255, 234);
   padding: 10px;
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
   margin-right: 30px;
 }
 .physics-icon-img {
-  height: 100px;
+  height: 60px;
 }
 
 .physics-text-lyt {
@@ -127,13 +127,13 @@
 
 .physics-header-txt {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: pink;
 }
 
 .physics-desc-txt {
-  font-size: 20px;
+  font-size: 10px;
   font-weight: lighter;
 }
 .more-hood {
@@ -153,8 +153,8 @@
 
 .more-card1,
 .more-card3 {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-right: 20px;
   padding-left: 20px;
   background-color: whitesmoke;
@@ -163,8 +163,8 @@
   align-items: center;
 }
 .more-card2 {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-right: 20px;
   padding-left: 20px;
   background-color: rgb(214, 212, 212);
@@ -176,9 +176,9 @@
 .enrol-txt,
 .chat-txt,
 .youtube-study-txt {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: rgb(250, 84, 112);
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -188,13 +188,13 @@
   color: rgb(70, 69, 69);
   margin-bottom: 30px;
   text-align: center;
-  font-size: 45px;
+  font-size: 15px;
 }
 .enrol-btn,
 .chat-btn,
 .youtube-study-btn {
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 15px;
   margin-top: 20px;
   border: 0px solid transparent;
   background-color: rgb(250, 84, 112);
@@ -214,18 +214,17 @@
   background-color: rgb(1, 38, 39);
   border-radius: 20px;
   margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 100px;
-  margin-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 70px;
 }
 .title-lyt {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin: auto 0;
   border-bottom: 2px solid rgba(255, 255, 255, 0.182);
   margin-top: 100px;
 }
 .title-txt {
-  font-size: 70px;
+  font-size: 30px;
   text-align: center;
   font-weight: bold;
   color: rgba(245, 245, 245, 0.87);
@@ -233,7 +232,7 @@
 .group-title-txt {
   color: whitesmoke;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 20px;
   margin-top: 60px;
   padding-left: 70px;
 }
@@ -264,15 +263,15 @@
   margin-bottom: 20px;
   border-radius: 10px;
   background-color: rgb(228, 242, 248);
-  font-size: 40px;
+  font-size: 20px;
   padding: 10px;
 }
 .search-btn {
-  padding: 20px;
+  padding: 10px;
   background-color: rgb(250, 88, 115);
   border: 0px solid transparent;
   color: white;
-  font-size: 30px;
+  font-size: 15px;
   border-radius: 10px;
   transition: transform 0.6s ease-in-out;
 }
@@ -282,7 +281,7 @@
 
 .find-course-content-lyt p {
   color: grey;
-  font-size: 40px;
+  font-size: 17px;
   margin-top: 20px;
   font-weight: lighter;
   text-align: start;
@@ -299,7 +298,7 @@
   margin-bottom: 100px;
 }
 .events-title {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: lighter;
   color: rgb(1, 38, 39);
   margin-bottom: 40px;
@@ -329,7 +328,7 @@
 .event1 img,
 .event2 img,
 .event3 img {
-  height: 400px;
+  height: 200px;
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
@@ -357,26 +356,26 @@
   margin-left: 10px;
 }
 .event-desc-txt {
-  font-size: 50px;
+  font-size: 25px;
   color: rgb(252, 71, 101);
   margin-top: 10px;
 }
 .event-time {
-  font-size: 30px;
+  font-size: 15px;
   color: green;
   font-weight: lighter;
   margin-top: 10px;
 }
 
 .date-lyt h1 {
-  font-size: 3em; /* Adjust font size for "12" */
+  font-size: 2em; /* Adjust font size for "12" */
   margin: 0; /* Remove default margin */
   text-align: center;
   color: white;
 }
 
 .date-lyt p {
-  font-size: 1em; /* Adjust font size for "Dec" */
+  font-size: 0.5em; /* Adjust font size for "Dec" */
   margin: 0; /* Remove default margin */
   text-align: center;
   color: white;
@@ -394,7 +393,7 @@
   border-bottom: 2px solid rgba(1, 39, 39, 0.1);
 }
 .latest-add-title {
-  font-size: 50px;
+  font-size: 25px;
   color: rgb(1, 38, 39);
   font-weight: bolder;
 }
@@ -414,7 +413,7 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 20px;
   box-shadow: 0px 10px 15px rgba(1, 38, 39, 0.5);
   cursor: pointer;
   transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;
@@ -434,33 +433,33 @@
   color: white;
 }
 .teacher1 {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
   display: flex;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   object-fit: cover;
 }
 .teacher-name1 {
-  font-size: 50px;
+  font-size: 25px;
   text-align: center;
   margin-bottom: 10px;
 }
 .teacher-subject {
-  font-size: 31px;
+  font-size: 15.4px;
   text-align: center;
   color: green;
 }
 .time {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 10px;
   text-align: center;
   color: grey;
 }
 .course-price {
-  margin-top: 60px;
-  font-size: 60px;
+  margin-top: 40px;
+  font-size: 40px;
   text-align: center;
   color: rgb(255, 88, 116);
 }
@@ -472,26 +471,26 @@
 }
 .featured-price-lyt {
   background-color: rgb(1, 38, 39);
-  padding: 15px;
+  padding: 10px;
   display: flex;
   align-items: center;
 }
 .featured-img {
-  height: 200px;
-  width: 200px;
+  height: 120px;
+  width: 120px;
   object-fit: cover;
-  border-radius: 100px;
+  border-radius: 60px;
   margin-right: 100px;
 }
 .subject-txt {
   color: white;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 30px;
 }
 .atendance {
   color: rgb(248, 119, 140);
   margin-top: 20px;
-  font-size: 37px;
+  font-size: 16.8px;
 }
 .featured-content-lyt {
   background-color: rgba(201, 200, 200, 0.918);
@@ -504,7 +503,7 @@
 .featured-subtopic {
   width: 100%;
   text-align: left;
-  font-size: 50px;
+  font-size: 25px;
   color: rgb(1, 38, 39);
   font-weight: bolder;
 }
@@ -512,18 +511,18 @@
 .time-taken {
   width: 100%;
   text-align: left;
-  font-size: 20px;
+  font-size: 10px;
   color: green;
   font-size: 30px;
 }
 .view-notes-btn {
   margin-top: 40px;
-  padding: 30px;
-  border-radius: 15px;
+  padding: 20px;
+  border-radius: 10px;
   border: 0px solid transparent;
   background-color: rgb(245, 102, 126);
   color: white;
-  font-size: 20px;
+  font-size: 10px;
   transition: transform 0.6s ease-in-out;
   cursor: pointer;
 }
@@ -535,8 +534,9 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 70%;
   margin: 0 auto;
-  grid-gap: 190px;
+  grid-gap: 100px;
   margin-bottom: 100px;
+  overflow-x: scroll;
 }
 .stat1,
 .stat2,
@@ -553,20 +553,20 @@
 }
 
 .value {
-  font-size: 90px;
+  font-size: 50px;
   color: rgb(1, 38, 39);
 }
 .s-title {
   margin-top: 20px;
   color: green;
-  font-size: 30px;
+  font-size: 15px;
 }
 .members {
   background-color: rgba(179, 178, 178, 0.61);
   padding: 50px;
 }
 .members-txt {
-  font-size: 50px;
+  font-size: 20px;
   color: rgb(1, 38, 39);
   font-weight: bolder;
   margin-bottom: 30px;
@@ -575,44 +575,49 @@
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 20px;
+  overflow-x: scroll;
 }
 .members-content div {
   background-color: whitesmoke;
-  border-radius: 25px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
   transition: transform 0.6s ease-in-out;
   box-shadow: 0px 10px 15px rgba(1, 38, 39, 0.2);
-  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-bottom: 30px;
 }
 .m-img {
-  height: 300px;
-  width: 300px;
+  height: 150px;
+  width: 150px;
   object-fit: cover;
-  border-radius: 150px;
+  border-radius: 75px;
   margin-bottom: 20px;
 }
 .m-name {
-  font-size: 40px;
+  font-size: 20px;
   color: green;
   margin-bottom: 10px;
+  text-align: center;
 }
 .m-subject {
   color: rgb(1, 38, 39);
-  font-size: 20px;
+  font-size: 10px;
   margin-bottom: 10px;
 }
 .m-position {
   color: grey;
-  font-size: 20px;
+  font-size: 10px;
   margin-bottom: 50px;
 }
 .m-adm {
   color: rgb(255, 92, 119);
-  font-size: 50px;
-  margin-bottom: 50px;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .close {
@@ -625,12 +630,16 @@
   margin-top: 100px;
 }
 .sec1,
-.sec2,
 .sec3,
 .sec4 {
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .sec-title {
   display: flex;
@@ -645,25 +654,25 @@
   margin-right: 20px;
 }
 .grp-n {
-  font-size: 50px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
 }
 .grp-abt {
-  font-size: 30px;
+  font-size: 15px;
   font-weight: bold;
   color: white;
 }
 
 .grp-desc {
   margin-top: 40px;
-  font-size: 30px;
+  font-size: 10px;
   font-weight: lighter;
   color: grey;
 }
 
 .det-title {
-  font-size: 50px;
+  font-size: 25px;
   color: white;
   font-weight: bold;
   margin-bottom: 80px;
@@ -675,7 +684,7 @@
 .d5,
 .d6,
 .d7 {
-  font-size: 35px;
+  font-size: 10px;
   margin-bottom: 30px;
   color: grey;
   font-weight: lighter;
@@ -683,31 +692,31 @@
 }
 
 .about-title {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   color: white;
   margin-bottom: 80px;
 }
 .about1 {
-  font-size: 40px;
+  font-size: 10px;
   margin-bottom: 30px;
   color: grey;
   font-weight: lighter;
 }
 
 .about2 {
-  font-size: 40px;
+  font-size: 10px;
   color: grey;
   font-weight: lighter;
 }
 .rq-btn {
-  padding: 40px;
+  padding: 20px;
   background-color: rgb(250, 88, 115);
   border: 0px solid transparent;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 10px;
-  width: 350px;
+  width: 300px;
   transition: transform 0.6s ease-in-out;
   cursor: pointer;
 }
@@ -715,7 +724,7 @@
   transform: scale(1.1);
 }
 .Request {
-  font-size: 50px;
+  font-size: 25px;
   font-weight: bold;
   color: white;
   margin-bottom: 80px;

@@ -11,25 +11,25 @@
   top: 0; /* Position it at the top of the viewport */
   left: 0; /* Position it at the left of the viewport */
   width: 100%; /* Stretch it across the entire width of the layout */
-  height: 130px; /* Set its height to 80px */
   background-color: rgba(1, 38, 39, 0.5);
   display: flex; /* Enable flexbox for horizontal alignment */
   justify-content: space-between; /* Align items horizontally with space between them */
   align-items: center; /* Align items vertically in the center */
-  padding: 10px 20px, 10px, 10px; /* Add some padding for visual spacing */
+  padding: 5px 20px, 5px, 10px; /* Add some padding for visual spacing */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
   z-index: 100;
+  overflow-x: hidden;
 }
 .main-icon-lyt {
   display: flex;
   align-items: center;
 }
 .main-icon-img {
-  height: 170px;
-  margin: 10px;
+  height: 80px;
+  margin: 5px;
 }
 .eureka-txt {
-  font-size: 50px;
+  font-size: 30px;
   color: rgb(255, 56, 89);
   font-weight: bolder;
 }
@@ -38,11 +38,12 @@
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
   background-color: rgba(17, 16, 16, 0.05);
+  overflow-x: hidden;
 }
 .options-lyt p {
-  font-size: 50px;
+  font-size: 20px;
   margin-right: 40px;
   cursor: pointer;
   transition: transform 0.6s ease-in-out, color 0.6s ease-in-out;
@@ -59,9 +60,9 @@
   display: flex;
   align-items: center;
   background-color: rgb(255, 56, 89);
-  padding: 20px;
+  padding: 10px;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   margin-right: 10px;
   border-radius: 7px;
   border-color: transparent;
@@ -110,20 +111,22 @@
     0,
     0,
     0,
-    0.2
+    0.4
   ); /* Optional: Add semi-transparent background (adjust as needed) */
   padding: 60px; /* Add some padding around the text content */
   border-radius: 30px;
+  height: 50%;
+  width: 70%;
 }
 .premium-courses-txt {
-  font-size: 40px;
+  font-size: 15px;
   display: flex;
   text-decoration: underline;
   font-weight: lighter;
   color: rgb(255, 241, 214);
 }
 .course-desc-txt {
-  font-size: 40px;
+  font-size: 15px;
   text-align: start;
 }
 .you-tube-link {
@@ -135,7 +138,7 @@
   cursor: pointer;
 }
 .course-startup-date {
-  font-size: 70px;
+  font-size: 30px;
   text-align: start;
   margin-top: 20px;
   margin-bottom: 70px;
@@ -143,12 +146,12 @@
 .view-course-btn {
   background-color: transparent;
   border: 3px solid white;
-  padding: 30px;
+  padding: 20px;
   color: white;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 45px;
   border-radius: 10px;
-  font-size: 30px;
+  font-size: 15px;
   transition: transform 0.6s ease-in-out;
   cursor: pointer;
 }
